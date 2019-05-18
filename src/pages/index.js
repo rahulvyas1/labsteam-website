@@ -155,7 +155,6 @@ function IndexPage() {
         <form
           className="mx-auto md:w-1/2"
           data-netlify="true"
-          method="post"
           name="contact"
           data-netlify-honeypot="bot-field"
         >
