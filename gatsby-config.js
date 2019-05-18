@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Emerging Software Development `,
-    description: `Labsteam: Emerging Software Development `,
+    title: `XEORY: Emerging Software Development `,
+    description: `XEORY: Emerging Software Development `,
     author: `@rahulvyas`
   },
   plugins: [
