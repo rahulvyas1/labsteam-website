@@ -110,10 +110,10 @@
 
  .box-col2{
   padding: 30px;
-  color: black;
+  color: white;
   margin-bottom: 40px;
   background: url(../images/box2.svg);
-  background-color: #e4eae9;
+  background-color: #2e3642;
   background-attachment: local;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -138,6 +138,13 @@
      background: white;
      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 
+ }
+
+ .pill{
+   background-color: white;
+   color: #2e3642;
+   max-width: 15%;
+   text-align: center;
  }
 
  .primaryBtn:hover{

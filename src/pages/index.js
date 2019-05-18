@@ -6,11 +6,8 @@ import webIcon from "../images/services/web-development-icon.svg";
 import mobileIcon from "../images/services/mobile-development-icon.svg";
 import productdesignIcon from "../images/services/product-design-icon.svg";
 import blockchainIcon from "../images/services/blockchain-icon.svg";
-import immg from "../images/cat-and-human-illustration.svg";
 import { FiArrowRightCircle } from "react-icons/fi";
-import box1Img from "../images/26824.jpg";
 import verifiedlogo from "../images/verifiedlogo.svg";
-import sect2rounded from "../images/section2-rounded.svg";
 
 function IndexPage() {
   return (
@@ -53,7 +50,7 @@ function IndexPage() {
             <p class="text-4xl"> Looking for a cryptocurrency exchange?</p>
             <p class="text-1xl my-6">
               {" "}
-              Get your blockchain developed and launched with our expertise.
+              We can help launch your digital asset <br/>exchange and run it for you.
             </p>
             <button class="shadow primaryBtn rounded float-left hover:text-blue hover:shadow-lg">
               Estimate Project
@@ -63,14 +60,12 @@ function IndexPage() {
           <br />
         </div>
         <div class="flex-1 boxes-small shadow box-col2">
-          NEW
+          <div class="rounded-full py-2 px-4 pill">NEW</div>
           <span class="upper-content">
             <p class="text-4xl">Xeory verified</p>
             <p class="text-1xl my-4">
-              We verify projects and award Xeory verification.
+              Our products and services come with a certification which you can put on your website.
             </p>
-            {/* <button class="shadow primaryBtn rounded float-left hover:text-blue hover:shadow-lg">Estimate Project<FiArrowRightCircle className="hover:text-green text-2xl align-middle font-light btnIcon"/></button> */}
-
             <img src={verifiedlogo} class="my-12" width={200} />
           </span>
         </div>
@@ -146,43 +141,7 @@ function IndexPage() {
         </button>
         <br />
 
-        {/* <div className="grid-container shadow rounded">
-          <div className="grid-item1">
-            <img src={immg} />
-          </div>
-          <div className="grid-item2 card">
-            <p className="font-bold text-4xl text-dark">Supply Chain</p>
-            <p className="font-light text-2xl text-dark">
-              Share your challenge with our team and we’ll work with you to
-              deliver a revolutionary digital product.
-            </p>
-          </div>
-        </div> */}
-
-        {/* <div className="grid-container shadow rounded grid-container-flipped">
-          <div className="grid-item1">
-            <img src={immg} />
-          </div>
-          <div className="grid-item2 card">
-            <p className="font-bold text-4xl text-dark">Supply Chain</p>
-            <p className="font-light text-2xl text-dark">
-              Share your challenge with our team and we’ll work with you to
-              deliver a revolutionary digital product.
-            </p>
-          </div>
-        </div>
-        <div className="grid-container shadow rounded">
-          <div className="grid-item1">
-            <img src={immg} />
-          </div>
-          <div className="grid-item2 card">
-            <p className="font-bold text-4xl text-dark">Supply Chain</p>
-            <p className="font-light text-2xl text-dark">
-              Share your challenge with our team and we’ll work with you to
-              deliver a revolutionary digital product.
-            </p>
-          </div>
-        </div> */}
+      
       </div>
       <div id="form" className="flex flex-col justify-between max-w-full mx-auto p-12 md:p-8 section-form">
         <p className="font-light text-4xl text-white text-center py-12">
