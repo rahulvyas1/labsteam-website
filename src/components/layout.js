@@ -1,9 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
-
 import Header from "./header";
-
 function Layout({ children }) {
   return (
     <StaticQuery
@@ -17,32 +15,30 @@ function Layout({ children }) {
         }
       `}
       render={data => (
-        <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+        <div className=" font-sans min-h-screen text-grey-darkest .max-w-full">
+       
           <Header siteTitle={data.site.siteMetadata.title} />
+       
 
-          <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+          <div className="w-full">
             {children}
           </div>
+          
 
-          <footer className="bg-blue">
+          <footer className="bg-black">
             <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
               <p className="text-white">
-                Created by{" "}
+                Copyright@2019{" "}
                 <a
-                  href="https://taylorbryant.blog"
+                  href=""
                   className="font-bold no-underline text-white"
                 >
-                  Taylor Bryant
+                  Xeory
                 </a>
               </p>
 
-              <p>
-                <a
-                  href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-                  className="font-bold no-underline text-white"
-                >
-                  GitHub
-                </a>
+              <p className="text-white">
+              Made with <span className="text-red">♥</span> from Australia
               </p>
             </div>
           </footer>

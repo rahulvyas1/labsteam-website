@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    title: `Emerging Software Development `,
+    description: `Labsteam: Emerging Software Development `,
+    author: `@rahulvyas`
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    {resolve: `gatsby-plugin-react-helmet`},
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -18,7 +18,7 @@ module.exports = {
         icon: `src/images/tailwind-icon.png`
       }
     },
-    `gatsby-plugin-postcss`,
+    {resolve: `gatsby-plugin-postcss`},
     {
       resolve: "gatsby-plugin-purgecss",
       options: {

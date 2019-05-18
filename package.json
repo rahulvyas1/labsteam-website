@@ -4,6 +4,7 @@
   "version": "2.2.2",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
+    "bulma": "^0.7.4",
     "gatsby": "^2.2.6",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-postcss": "^2.0.7",
@@ -12,8 +13,12 @@
     "graphql": "^14.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
+    "react-awesome-slider": "^0.5.2",
     "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.6.1",
+    "react-plx": "^1.3.13",
+    "react-slick": "^0.24.0"
   },
   "keywords": [
     "gatsby",
