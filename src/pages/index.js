@@ -23,7 +23,7 @@ function IndexPage() {
           <br /> development company.
         </p>
         <p class="text-3xl font-light  m-2 color-gray">
-          Have an idea? We will develop and help you release it.
+          Have an idea for a product? We will develop and help you release it.
         </p>
       </section>
       <div className="flex flex-col justify-between p-4 md:p-8 section1 container hover:shadow-lg">

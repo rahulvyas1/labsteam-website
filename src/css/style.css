@@ -88,6 +88,18 @@
    padding: 20px 0 20px 0;
 
  }
+ @media screen and (max-width: 600px) {
+   .boxes2{
+     flex-direction: column;
+   }
+   .box-col{
+    margin: 10px !important;
+  }
+  .box-col2{
+   margin: 10px !important;
+ }
+
+ }
 
  .box-col{
    margin: 0 10px 0 0;
