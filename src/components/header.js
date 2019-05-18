@@ -16,7 +16,7 @@ function Header({ siteTitle }) {
       
         <Link to="/" className="flex items-center no-underline text-black">
         <img src={logo} className="logo flex sm:p-1 " height="20px"/>
-          <span className="font-light text-lg tracking-tight">  {siteTitle}</span>
+          <span className="font-light text-md tracking-tight">Emerging Software Development</span>
         </Link>
         
 
@@ -39,26 +39,24 @@ function Header({ siteTitle }) {
             isExpanded ? `block` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
-          <div className="text-sm">
-            
-
-           
+          <div className="text-xl">
+               
 
             <Link
               to="/#form"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-black text-center"
+              className="block md:inline-block mt-8 md:mt-0 no-underline text-black text-center py-2"
             >
               Contact
             </Link>
             <Link
               to="/"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-black text-center socialIcon"
+              className="block md:inline-block mt-4 md:mt-0 no-underline text-black text-center  py-2 socialIcon"
             >
               <img src={facebookImg}/>
             </Link>
             <Link
               to="/"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-black text-center socialIcon"
+              className="block md:inline-block mt-4 md:mt-0 no-underline text-black text-center py-2 socialIcon"
             >
               <img src={instagramImg}/>
             </Link>
