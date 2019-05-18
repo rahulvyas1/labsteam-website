@@ -50,7 +50,8 @@ function IndexPage() {
             <p class="text-4xl"> Looking for a cryptocurrency exchange?</p>
             <p class="text-1xl my-6">
               {" "}
-              We can help launch your digital asset <br/>exchange and run it for you.
+              We can help launch your digital asset <br />
+              exchange and run it for you.
             </p>
             <button class="shadow primaryBtn rounded float-left hover:text-blue hover:shadow-lg">
               Estimate Project
@@ -64,7 +65,8 @@ function IndexPage() {
           <span class="upper-content">
             <p class="text-4xl">Xeory verified</p>
             <p class="text-1xl my-4">
-              Our products and services come with a certification which you can put on your website.
+              Our products and services come with a certification which you can
+              put on your website.
             </p>
             <img src={verifiedlogo} class="my-12" width={200} />
           </span>
@@ -73,11 +75,9 @@ function IndexPage() {
       <section class="section2-outer">
         <div className="max-w-full py-4">
           <div class="">
-
-          <h1 className="text-center py-12">Services we offer</h1>
-
+            <h1 className="text-center py-12">Services we offer</h1>
           </div>
-          
+
           <div className="card-section">
             <div className="card-box shadow text-center rounded-lg hover:shadow-md">
               <img src={webIcon} className="service-icon" />
@@ -135,27 +135,33 @@ function IndexPage() {
           Share your challenge with our team and we’ll work with you to deliver
           a revolutionary digital product.
         </p>
-        <button class="shadow primaryBtn blueBtn rounded hover:shadow-lg" onClick="">
+        <button
+          class="shadow primaryBtn blueBtn rounded hover:shadow-lg"
+          onClick=""
+        >
           Estimate Project{" "}
           <FiArrowRightCircle className="hover:text-green text-2xl align-middle text-white btnIcon" />
         </button>
         <br />
-
-      
       </div>
-      <div id="form" className="flex flex-col justify-between max-w-full mx-auto p-12 md:p-8 section-form">
+      <div
+        id="form"
+        className="flex flex-col justify-between max-w-full mx-auto p-12 md:p-8 section-form"
+      >
         <p className="font-light text-4xl text-white text-center py-12">
           Let's discuss about your project
         </p>
         <br />
-        <form className="mx-auto md:w-1/2">
+        <form
+          className="mx-auto md:w-1/2"
+          data-netlify="true"
+          method="post"
+          name="contact"
+          data-netlify-honeypot="bot-field"
+        >
           <label
             className="block font-bold mb-2 text-xl uppercase text-white"
             htmlFor="first-name"
-            data-netlify="true"
-            method="post"
-            name="contact"
-            data-netlify-honeypot="bot-field"
           >
             Name
           </label>
@@ -168,7 +174,7 @@ function IndexPage() {
             name="name"
           />
 
-<label
+          <label
             className="block font-bold mb-2 text-xl uppercase text-white"
             htmlFor="first-email"
           >
@@ -182,7 +188,6 @@ function IndexPage() {
             name="Email"
             placeholder="yourmail@mail.com"
           />
-
 
           <label
             className="block font-bold mb-2 text-xl uppercase text-white"
@@ -213,7 +218,10 @@ function IndexPage() {
             name="Message"
           />
 
-          <button className=" primaryBtn rounded hover:text-blue hover:shadow-lg" type="submit">
+          <button
+            className=" primaryBtn rounded hover:text-blue hover:shadow-lg"
+            type="submit"
+          >
             Submit
           </button>
         </form>

@@ -61,6 +61,10 @@
  * @import "utilities/skew-transforms";
  */
 
+ body{
+  font-family: sans-serif !important;
+ }
+
  .logo{
   margin-right: 20px;
  }
@@ -254,4 +258,8 @@ input, textarea{
 .box1img{
   position: static;
   padding-right: 40px;
+}
+
+.socialIcon{
+  padding: 0 10px;
 }

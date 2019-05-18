@@ -2,6 +2,8 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import logo from "../images/SVG/logo-light.svg"
+import facebookImg from "../images/facebook.svg";
+import instagramImg from "../images/instagram.svg";
 
 
 function Header({ siteTitle }) {
@@ -16,6 +18,7 @@ function Header({ siteTitle }) {
         <img src={logo} className="logo flex sm:p-1 " height="20px"/>
           <span className="font-light text-lg tracking-tight">  {siteTitle}</span>
         </Link>
+        
 
         <button
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-black"
@@ -46,6 +49,18 @@ function Header({ siteTitle }) {
               className="block md:inline-block mt-4 md:mt-0 no-underline text-black text-center"
             >
               Contact
+            </Link>
+            <Link
+              to="/"
+              className="block md:inline-block mt-4 md:mt-0 no-underline text-black text-center socialIcon"
+            >
+              <img src={facebookImg}/>
+            </Link>
+            <Link
+              to="/"
+              className="block md:inline-block mt-4 md:mt-0 no-underline text-black text-center socialIcon"
+            >
+              <img src={instagramImg}/>
             </Link>
           </div>
         </div>
