@@ -254,7 +254,7 @@ function IndexPage() {
             name="Message"
           />
 
-          <button className=" primaryBtn rounded hover:text-blue hover:shadow-lg">
+          <button className=" primaryBtn rounded hover:text-blue hover:shadow-lg" type="submit">
             Submit
           </button>
         </form>
