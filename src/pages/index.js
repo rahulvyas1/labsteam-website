@@ -94,27 +94,21 @@ function IndexPage() {
               <br />
               <p class="text-2xl my-4"> Mobile Development</p>
               <p class="text-xl font-light">
-                We provide both back-end and front-end development. Our teams
-                build web applications powered by bulletproof code, with
-                stunning interfaces based on responsive web design.
+              Smartphones, tablets, wearables - follow your users where they are with carefully crafted mobile apps. Reach customers via Android, iOS, or cross-platform solutions.
               </p>
             </div>
             <div className="card-box shadow text-center rounded hover:shadow-md">
               <img src={productdesignIcon} className="service-icon" /> <br />
               <p class="text-2xl my-4">Product Design</p>
               <p class="text-xl font-light">
-                We provide both back-end and front-end development. Our teams
-                build web applications powered by bulletproof code, with
-                stunning interfaces based on responsive web design.
+              Great code deserves an equally stunning visual representation, and this is what we deliver. Our Product Design team combines beautiful interfaces with captivating user experience.
               </p>
             </div>
             <div className="card-box shadow text-center rounded hover:shadow-md">
               <img src={blockchainIcon} className="service-icon" /> <br />
               <p class="text-2xl my-4">Blockchain Development</p>
               <p class="text-xl font-light">
-                We provide both back-end and front-end development. Our teams
-                build web applications powered by bulletproof code, with
-                stunning interfaces based on responsive web design.
+              Top-notch Blockchain developers, designers, and product owners - ready to build your product. We have experience within the Healthcare, FinTech, Education, Advertising, and Logistics industry.
               </p>
             </div>
           </div>
